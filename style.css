@@ -1,0 +1,389 @@
+*{
+  margin: 1;
+  margin-left: 3px;
+  font-family: 'Poppins', sans-serif
+}
+
+h2,p {
+  color: white;
+}
+
+.line {
+  margin-bottom: -10px;
+  border-top: 10px white;
+}
+
+.line2{
+  margin-top: -10px;
+}
+
+.intro {
+  font-size: small;
+  line-height: 25px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+}
+
+#header {
+  width: 100%;
+}
+
+.dominic {
+  color: white;
+  font-size: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.header-text {
+  font-size: 30px;
+  color: white;
+}
+.header-text h1{
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
+.header-text h1 span{
+  color: #ff004f;
+}
+
+/* ---------------about--------------- */
+#about {
+  padding: 80px 0;
+  color: #ababab;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1 {
+  flex-basis: 35%;
+}
+
+.about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.about-col-2 {
+  flex-basis: 60%;
+}
+
+.sub-title { 
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  align-items: center;
+}
+
+.tab-titles {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-links-about {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-links-about::after {
+  content: '';
+  width:0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.tab-links-about.active-link::after {
+  width: 50%;
+}
+
+.tab-contents-about ul li {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: -42px;
+}
+
+.tab-contents-about ul li span {
+  color: #c4305f;
+  font-size: 14px;
+}
+
+.tab-contents-about{
+  display: none;
+}
+
+.tab-contents-about.active-tab {
+  display: block
+}
+
+/* achievements */
+
+.achievements-col {
+  flex-basis: 45%;
+  padding: 5px;
+}
+
+.achievements-col img {
+  width: 100%;
+}
+
+
+.tab-links-achievements {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-links-achievements::after {
+  content: '';
+  width:0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.tab-links-achievements.active-link::after {
+  width: 50%;
+}
+
+.tab-contents-achievements ul li {
+  list-style: none;
+  margin: 10px 0;
+  color: white;
+}
+
+.tab-contents-achievements ul li span {
+  color: #c4305f;
+  font-size: 14px;
+}
+
+.tab-contents-achievements{
+  display: none;
+}
+
+.tab-contents-achievements.active-tab {
+  display: flex;
+}
+
+.tab-contents-achievements ul li span {
+  color: #c4305f;
+  font-size: 14px;
+}
+
+.school-image {
+  height: auto;
+  flex: 1;
+  padding-left: 50px;
+  max-width: 40%;
+}
+
+.tt-image {
+  height: auto;
+  flex: 1;
+  padding-left: 245px;
+  max-width: 40%;
+}
+
+.army-image {
+  height: auto;
+  flex: 1;
+  padding-left: 250px;
+  max-width: 25%;
+}
+
+/* projects */
+#projects {
+  padding: 30px 0;
+}
+
+.projects-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+
+.fa-school:before, .fa-table-tennis:before, .fa-person-rifle {
+  color: white;
+  padding-right: 6px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: #ababab;
+  margin-bottom: 50px;
+}
+
+a {
+  color: white;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+a:hover{
+  transition: 0.25s;
+  color: blue;
+}
+
+a:hover::after{
+  color: #ff004f;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* contact */
+.contact-left{
+  flex-basis: 35%;
+}
+
+.contact-left p{
+  margin-top: 30px;
+}
+
+.contact-right{
+  flex-basis: 60%;
+}
+
+.contact-left p i{
+  color: #ff004f;
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.social-icons a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 40px;
+  color: #ababab;
+  display: inline-block;
+}
+
+.social-icons a:hover{
+  color: #ff004f;
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+
+.button1{
+  background-color: #ff004f;
+  color: white;
+  margin-top: 10px;
+  padding: 15px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button2{
+  background-color: #ff004f;
+  color: white;
+  margin-top: 10px;
+  padding: 15px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+form input, form textarea{
+  width:100%;
+  border:0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}d
+
+form .button2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#msg{
+  color: #61b752;
+  margin-top: 30px;
+  margin-left: 7px;
+}
+
+/* ending */
+.ending{
+  width:100%;
+  text-align: center;
+  padding: 25px 0;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.ending i{
+  color: #ff004f;
+}
+

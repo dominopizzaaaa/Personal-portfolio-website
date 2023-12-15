@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <title>About Dominic</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/a98aef6f15.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+    <div class = "dominic"></div>
+      <div class = "container">
+        <nav>
+          <ul>
+            <li><a href = "#header">Home</a></li>
+            <li><a href = "#about">About</a></li>
+            <li><a href = "#achievements">Achievements</a></li>
+            <li><a href = "#projects">Projects</a></li>
+            <li><a href = "#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <hr class = "line2">
+        <div class = "header-text">
+          <h1>Hi, I am <span>Dominic Koh</span></h1>
+        </div>
+      </div>
+    </div>
+<!------------about------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src ="images/IMG_8228.JPG">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class = "intro">Hi! I'm Dominic, a first-year Computer Science student at the National University of Singapore. 
+            My academic voyage commenced at Raffles Institution, followed by a fulfilling stint as an Officer in the 1st Commando Battalion during National Service. 
+            Currently leading as Officer Commanding in my company, I balance my academic pursuits with a fervent love for table tennis. 
+            As a proud member of the Singapore Table Tennis National Team, I've competed in various tournaments, aiming to contribute more to our success in the future.</p>
+
+            <div class="tab-titles">
+              <p class = "tab-links-about active-link" onclick="opentab_about('skills')">Skills</p>
+              <p class = "tab-links-about active-link" onclick="opentab_about('experience')">Experience</p>
+              <p class = "tab-links-about active-link" onclick="opentab_about('education')">Education</p>
+            </div>
+            <div class ="tab-contents-about active-tab" id="skills">
+              <ul>
+                <li><span>Python</span><br>1 year of experience</li>
+                <li><span>Java</span><br>1 year of experience</li>
+                <li><span>Microsoft Word / Excel / Sheet</span></li>
+              </ul>
+            </div>
+            <div class ="tab-contents-about" id="experience">
+              <ul>
+                <li></li>
+              </ul>
+            </div>
+            <div class ="tab-contents-about" id="education">
+              <ul>
+                <li><span>University (2023 - 2027)</span><br>National University of Singapore</li>
+                <li><span>Junior College (2019 - 2020)</span><br>Raffles Institution</li>
+                <li><span>Secondary (2015 - 2018)</span><br>Raffles Institution</li>
+                <li><span>Primary (2009 - 2014)</span><br>Maris Stella High School (Primary)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------achievements------------>
+    <div id = "achievements">
+      <div class = "container">
+        <h1 class="sub-title">My Achievements</h1>
+        <div class="tab-titles">
+          <i class="fas fa-school"></i>
+          <p class = "tab-links-achievements active-link" onclick="opentab_achievements('academic')">Academic</p>
+          <i class="fas fa-table-tennis"></i>
+          <p class = "tab-links-achievements active-link" onclick="opentab_achievements('sporting')">Sporting</p>
+          <i class="fas fa-person-rifle"></i>
+          <p class = "tab-links-achievements active-link" onclick="opentab_achievements('national-service')">National Service</p>
+        </div>
+        <div class ="tab-contents-achievements active-tab" id="academic">
+          <ul>
+            <li><span>National University of Singapore (NUS) scholarship</span><br>Global Merit Scholarship Recipient</li>
+            <li><span>Raffles Institution A level</span><br>Rank Points: 90/90</li>
+            <li><span>Raffles Institution FIRE award x 3</span><br>Awarded to students who exhibit exemplary character with respect to the four core values of Raffles Institution: Fortitude, Integrity, Respect and Enterprise</li>
+            <li><span>Singapore National Colours Award x 5</span><br>Presented to students based on their sporting achievements and display of good sporting character</li>
+            <li><span>Silver award & Certificate of High Distinction for Research Education</span><br>Awarded Silver for Research Education paper in 2016</li>
+          </ul>
+          <img class = "school-image" src ="images/School_photo.jpeg">
+        </div>
+        <div class ="tab-contents-achievements" id="sporting">
+          <ul>
+            <li><span>Singapore National Team</span><br>Part of the Singapore National Team (2019 - Present)</li>
+            <li><span>2023 World University Games ChengDu</span><br>Top 16 (Singles), Top 16 (Doubles), Top 10 (Team)</li>
+            <li><span>2022 Standard Chartered Marathon</span><br>Completed in 4 hours</li>
+            <li><span>2019 World Junior Table Tennis Championship</span><br>6th (Team)</li>
+            <li><span>2019 Asian Table Tennis Championship</span><br>8th (Team)</li>
+            <li><span>2019 SEA Junior Table Tennis Championship</span><br>1st (Team), 3rd (Singles), 3rd (Doubles), 3rd (Mixed doubles)</li>
+            <li><span>2019 Sportboy Meritorious Award</span></li>
+            <li><span>2018 SEA Junior Table Tennis Championship</span><br>1st (Team), Top 8 (Singles), 1st (Doubles), 2nd (Mixed doubles)</li>
+          </ul>
+          <img class = "tt-image" src = "images/TT_photo.JPG">
+        </div>
+        <div class ="tab-contents-achievements" id="national-service">
+          <ul>
+            <li><span>1st Commando Battalion</span><br>Enrolled into 1st Commando Battalion in 2021</li>
+            <li><span>Officer (2021 - 2022)</span><br>Appointed as a Detachment Commander, in charge of 15 men</li>
+            <li><span>Officer Commanding (2022 - Present)</span><br>Appointed OC of the company, in charge of 100 men</li>
+            <li><span>123/21 Officer Cader Course (OCC)</span><br>Sword of Merit (SOM)</li>
+            <li><span>IPPT 100 Points</span><br>Achieved in 2021</li>
+            <li><span>81st Commando Small-Unit Leader Course (CSLC) Best Detachment</span><br>Presented to the detachment with the best performance in the course</li>
+            <li><span>BMT Best in PT</span><br>Awarded to the recruit with best fitness in the company</li>
+            <li><span>Commanding Officer (CO) coin </span><br>Presented CO coin for contribution to the company</li>
+            <li><span>Best Combat Unit for the Army Test and Evaluation (ATEC)</span></li>
+          </ul>
+          <img class = "army-image" src ="images/Army_photo.JPG">
+        </div>
+      </div>
+    </div>
+    <!----------projects------------> change this to Projects !!
+    <div id = "projects">
+      <h2>Personal Projects</h2>
+      <table>
+        <tr>
+          <th>Name (Press to view!)</th>
+          <th>Tools Used</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><a href = "https://github.com/dominopizzaaaa/my-first-website" target="_blank">My First Website</a></td>
+          <td>HTML, CSS</td>
+          <td>First ever touchpoint with HTML and CSS, completely followed a Youtube tutorial</td>
+        </tr>
+        <tr>
+          <td><a href = "https://github.com/dominopizzaaaa/my-first-website" target="_blank">My Personal Portfolio Website</a></td>
+          <td>HTML, CSS</td>
+          <td>Second ever touchpoint with HTML and CSS, partially followed a Youtube tutorial, created some elements and portions on my own</td>
+        </tr>
+      </table>
+    </div>
+    <!----------contact------------>
+    <div id = "contact">
+      <div class = "container">
+        <div class = "row">
+          <div class="contact-left">
+            <h1 class ="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>domksj23@gmail.com</p>
+            <div class = "social-icons">
+              <a href ="https://www.linkedin.com/in/dominic-koh-323752281/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href ="https://github.com/dominopizzaaaa" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href =""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <button class="button1" onclick="window.open('images/my-resume.pdf', '_blank')">Download Resume</button>
+          </div>
+          <div class="contact-right">
+            <form name ="submit-to-google-sheet">
+              <input type="text" name ="Name" placeholder="Your Name" required>
+              <input type="email" name ="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="button2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="ending">
+        <p>This website was made by Dominic<i class="fa-regular fa-face-smile-wink"></i><i class="fa-solid fa-poop"></i></p>
+      </div>
+    </div>
+    <script>
+      var tablinks_about = document.getElementsByClassName("tab-links-about");
+      var tabcontents_about = document.getElementsByClassName("tab-contents-about");
+      var tablinks_achievements = document.getElementsByClassName("tab-links-achievements");
+      var tabcontents_achievements = document.getElementsByClassName("tab-contents-achievements");
+
+      function opentab_about(tabname){
+        for(tablink of tablinks_about) {
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents_about) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+      }
+
+      function opentab_achievements(tabname){
+        for(tablink of tablinks_achievements) {
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents_achievements) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzc-Dau6lntBkumw7PzEMrvDJYDS_fbq4UOJl9hG3AVRzREnd5souwfRndd5EBn2LpT1g/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML =""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
